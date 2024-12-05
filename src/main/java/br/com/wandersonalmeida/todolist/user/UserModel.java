@@ -1,7 +1,7 @@
 package br.com.wandersonalmeida.todolist.user;
 
 public class UserModel {
-  public String username;
   public String name;
+  public String username;
   public String password;
 }
