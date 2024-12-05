@@ -29,8 +29,7 @@ public class UserController {
 
   @PostMapping("/")
   public void create( @RequestBody UserModel usermodal){
-    System.out.println(usermodal.getUsername());
-    System.out.println(usermodal.getName());
+    System.out.println(usermodal.getPassword());
 
   }
   
