@@ -19,8 +19,8 @@ public class UserModel {
   private UUID user_id;
   
   
-  private String username;
   private String name;
+  private String username;
   private String password;
 
   @CreationTimestamp
