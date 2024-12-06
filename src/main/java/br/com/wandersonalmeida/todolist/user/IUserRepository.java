@@ -4,10 +4,7 @@ import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-/**
- * 1° qual a classe que esse repositório está representando;
- * 2° qual tipo de id que esss minha entidade vai ter
- */
+// contrato dentro da nossa aplicação com metodos, porem sem a implementação dos mesmos.
 public interface IUserRepository extends JpaRepository<UserModel, UUID> {
-  
+  UserModel findByUsername(String username);
 }
