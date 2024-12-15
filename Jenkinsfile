@@ -4,10 +4,6 @@ pipeline {
         maven 'maven3'
     }
     
-    triggers {
-        githubPush()
-    }
-    
     environment {
         SCANNER_HOME = tool 'sonar-scanner'
     }
