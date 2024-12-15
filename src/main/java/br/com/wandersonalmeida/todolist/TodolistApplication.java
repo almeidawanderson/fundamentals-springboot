@@ -8,7 +8,7 @@ public class TodolistApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(TodolistApplication.class, args);
-		System.out.printf("Hello  %s!", "World");
+    System.out.printf("Hello  %s!", "World");
 	}
 	
 
